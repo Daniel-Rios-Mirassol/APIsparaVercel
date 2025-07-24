@@ -7,7 +7,7 @@ import os
 
 # A CHAVE DEVE VIR DE UMA VARIÁVEL DE AMBIENTE DO VERCEL!
 API_KEY_SECRETA = os.environ.get("MINHA_API_KEY")
-print(f"API_KEY_SECRETA carregada: {API_KEY_SECRETA}")
+
 class handler(BaseHTTPRequestHandler):
     def _verify_api_key(self):
         # Tenta pegar a chave do cabeçalho X-API-Key ou do query parameter 'api_key'
@@ -41,7 +41,9 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
-        with open('Relatorios.txt', 'r', encoding='utf-8') as f:
+        current_dir = os.path.dirname(__file__)
+        file_path = os.path.join(current_dir, 'Relatorios.txt')
+        with open(file_path, 'r', encoding='utf-8') as f:
             texto_para_retornar = f.read()
         response_data = {'message': f'''{texto_para_retornar}
 '''}
