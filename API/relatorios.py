@@ -46,8 +46,14 @@ class handler(BaseHTTPRequestHandler):
         print(f"Diretório atual da função: {current_dir}")
         print(f"Caminho completo do arquivo: {file_path}")
         print(f"Arquivo existe em {file_path}? {os.path.exists(file_path)}")
-        with open(file_path, 'r', encoding='utf-8') as f:
-            texto_para_retornar = f.read()
+        texto_para_retornar = ''
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                texto_para_retornar = f.read()
+        except:
+            response_data = {'message': 'deu não'}
+            self.wfile.write(json.dumps(response_data).encode('utf-8'))
+            return
         response_data = {'message': texto_para_retornar}
         self.wfile.write(json.dumps(response_data).encode('utf-8'))
         return
