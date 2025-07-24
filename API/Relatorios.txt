@@ -1,0 +1,687 @@
+CODREL,NOME_RELATORIO,NIVEL,MODULO,SUBMODULO,PERMISSAO
+2,Cadastro de Tipo de Combustivel,OPERADOR,Frota,Cadastrais,1
+3,Cadastro de Frota,OPERADOR,Frota,Cadastrais,1
+4,Cadastro de Marcas de Veículo,OPERADOR - FILIAL,Frota,Cadastrais,1
+5,Cadastro de Modelo de Veículos,OPERADOR - FILIAL,Frota,Cadastrais,1
+6,Cadastro de Pneus,OPERADOR,Frota,Cadastrais,1
+7,Cadastro de Marcar de Pneu,OPERADOR,Frota,Cadastrais,1
+9,Cadastro de Linhas e Itinerário,OPERADOR,Frota,Cadastrais,1
+11,Cadastro de Municipios,OPERADOR,Frota,Cadastrais,1
+19,Cadastro de Unidade de Negocio,OPERADOR,Parametros,Cadastrais,1
+20,Cadastro de Praça de Pedagios,OPERADOR,Frota,Cadastrais,1
+21,Cadastro de Região,OPERADOR,Comercial,Cadastrais,1
+23,Cadastro de Administradora,OPERADOR,Frota,Cadastrais,1
+24,Cadastro de Dimensão de Pneu,OPERADOR,Frota,Cadastrais,1
+30,Cadastro de Bombas,OPERADOR,Frota,Cadastrais,1
+32,Cadastro de Cartões,OPERADOR,Frota,Cadastrais,1
+36,Cadastro de Setores de Oficina,OPERADOR,Manutencao,Cadastrais,1
+38,Cadastro de Conjuntos,OPERADOR,Manutencao,Cadastrais,1
+41,Cadastro de Sub-Grupos de Produto,OPERADOR,Materiais,Cadastrais,1
+42,Cadastro de Produtos,MATERIAIS,Materiais,Cadastrais,1
+43,Cadastro de Produtos por Fornecedor,MATERIAIS,Materiais,Cadastrais,1
+48,Cadastro de Veiculo,OPERADOR,Frota,Cadastrais,1
+49,Listagem Plano de Contas,OPERADOR,Contabilidade,Cadastrais,1
+50,Grupos Fiscais de Produtos,FISCAIS,Fiscal,Cadastrais,0
+51,Parceiros Comerciais,OPERADOR,Comercial,Cadastrais,1
+52,Produto Serviço de Transporte,FISCAIS,Comercial,Cadastrais,0
+53,Tabela de Frete,OPERADOR,Comercial,Cadastrais,1
+57,Tabela de Frete por Manifesto,OPERADOR,Comercial,Cadastrais,1
+61,Contrato de Serviço,OPERADOR,Faturamento,Cadastrais,1
+63,Ocorrências por Entrega,OPERADOR,Faturamento,Cadastrais,1
+64,Ocorrências de Entrega por Cliente,OPERADOR,Faturamento,Cadastrais,1
+66,Observações de Entrega por Cliente,OPERADOR,Faturamento,Cadastrais,1
+69,Cadastro de Motoristas,OPERADOR,Frota,Cadastrais,1
+70,Emissão de Fatura,OPERADOR,Faturamento,Movimentação,1
+71,Emissão DACTE,OPERADOR - FILIAL,Faturamento,Movimentação,1
+72,Emissão MDFE,OPERADOR - FILIAL,Faturamento,Movimentação,1
+73,Relatório Motoristas (Exportar),OPERADOR,Frota,Cadastrais,1
+74,Balancete,CONTABILIDADE,Contabilidade,Movimentação,1
+75,Tabela de Frete por Cliente,OPERADOR,Faturamento,Cadastrais,1
+76,Tabela de Frete,OPERADOR,Faturamento,Cadastrais,1
+77,Tabela de Frete Coleta/Entrega,OPERADOR,Faturamento,Cadastrais,1
+79,Cadastro de Parceiros Comerciais,OPERADOR,Faturamento,Cadastrais,1
+85,Contas Bancarias,OPERADOR,Bancos,Cadastrais,1
+87,Tipos de Documentos,OPERADOR,Fluxo de Caixa,Cadastrais,1
+88,Bens Ativos,CONTABILIDADE,Patrimonio,Cadastrais,1
+89,Itens de Configuração,CONTABILIDADE,Patrimonio,Cadastrais,1
+91,Razão Analítico,CONTABILIDADE,Contabilidade,Movimentação,1
+106,Relação de Programação de Carga Detalhada,OPERADOR,Programacao,Movimentação,1
+107,Relação de Programação de Veiculo por Cliente,OPERADOR,Programacao,Movimentação,1
+110,Emissão de OST por Período,OPERADOR - FILIAL,Faturamento,Movimentação,1
+111,Cotação,OPERADOR,Faturamento,Movimentação,1
+112,Ordem de Coleta por Situação,OPERADOR,Faturamento,Movimentação,1
+113,Relação de NF por período,OPERADOR,Faturamento,Movimentação,1
+114,Danfe,OPERADOR,Faturamento,Movimentação,1
+117,Extrato de Fechamento Terceiros,OPERADOR,Terceiros,Movimentação,1
+123,Pedido de Compra,OPERADOR,Materiais,Movimentação,1
+125,Relação de Apropriação Interna de Materiais,OPERADOR,Materiais,Movimentação,1
+128,Posição Geral do Estoque,OPERADOR,Materiais,Movimentação,1
+129,Inventário de Estoque,OPERADOR,Materiais,Movimentação,1
+146,CT-e por Período,OPERADOR,Faturamento,Movimentação,1
+147,Carregamentos por Cliente,OPERADOR,Faturamento,Movimentação,1
+148,CT-e por Período Cancelados,OPERADOR,Faturamento,Movimentação,1
+151,Movimentação por Filial,OPERADOR,Faturamento,Movimentação,1
+154,Faturamento por Filiais,OPERADOR,Faturamento,Movimentação,1
+155,Faturamento por Frota,OPERADOR,Faturamento,Movimentação,1
+156,Faturamento por Período,OPERADOR,Faturamento,Movimentação,1
+158,Indicadores de Faturamento,OPERADOR,Faturamento,Movimentação,1
+162,Mão de Obra Funcionário,OPERADOR,Manutencao,Movimentação,1
+164,Check List por Período,OPERADOR,Manutencao,Movimentação,1
+165,Abertura de Ordem de Serviço,MANUTENÇÃO,Manutencao,Movimentação,0
+166,Ordem de Serviço por Veículo,MANUTENÇÃO,Manutencao,Movimentação,0
+167,Ordem de Serviço por Funcionário,OPERADOR,Manutencao,Movimentação,1
+168,Ordem de Serviço Encerradas,OPERADOR,Manutencao,Movimentação,1
+172,Planos de Manutenção,OPERADOR,Manutencao,Movimentação,1
+176,Revisionais por Item,MANUTENÇÃO,Manutencao,Movimentação,0
+180,Relação de Ordem de Serviço por Situação,OPERADOR,Manutencao,Movimentação,1
+181,Saídas por Município,FISCAIS,Fiscal,Movimentação,0
+182,Carta de Correção Eletrônica,OPERADOR - FILIAL,Fiscal,Movimentação,1
+183,Conferencia de Entrada por Emissão,FISCAIS,Fiscal,Movimentação,0
+184,Movimentação por Estado,FISCAIS,Fiscal,Movimentação,0
+185,Movimentação de Saída por Origem e Destino,FISCAIS,Fiscal,Movimentação,0
+186,Divergências de Saídas,FISCAIS,Fiscal,Movimentação,0
+188,Listagem de Conferência de Entrada,FISCAIS,Fiscal,Movimentação,0
+189,Listagem de Conferência de Saída,FISCAIS,Fiscal,Movimentação,0
+192,Relatório Gerencial (Classificado),OPERADOR,Fluxo de Caixa,Movimentação,1
+193,Posição dos Títulos a Receber,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+195,Relação de Faturas por CT-E,OPERADOR,Faturamento,Movimentação,1
+197,Lançamento de Cursos e Licenças,OPERADOR,RH,Movimentação,1
+200,Cursos de Motoristas a Vencer,OPERADOR,RH,Movimentação,1
+201,Licenças de Veículos a Vencer,OPERADOR,RH,Movimentação,1
+202,Carta de Advertência por Motorista,OPERADOR,RH,Movimentação,1
+208,Documentos_contas_receber_por_vencimento,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+210,Documentos_Contas_Receber_por_emissao,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+213,Documento_Pagar_Emissao_Valor,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+214,Documento_Pagar_Vencimento_Geral,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+216,Documentos do Contas a Receber Total por Banco,OPERADOR,Fluxo de Caixa,Entradas,1
+229,Relação de RNC Não Conformes,OPERADOR,CRM,Registro de Não Conformidade,1
+234,Razão Analítico de Produtos,OPERADOR,Materiais,Movimentação,1
+235,Contagem de Itens de Estoque,OPERADOR,Materiais,Movimentação,1
+237,Imagem Esquemática,OPERADOR,Frota,Movimentação,1
+239,Mapa Geral de Pneus,PNEUS,Frota,Pneus,1
+240,Relação de Pneus Por Custo do Veiculo,OPERADOR,Frota,Pneus,1
+241,Relação Pneus Por Status,OPERADOR,Frota,Pneus,1
+242,Relação de Pneus do Retorno Ressolagem,OPERADOR,Frota,Pneus,1
+243,Relaçãoo de Pneus por Situação,OPERADOR,Frota,Pneus,1
+247,Relação de Pneus Descartados,OPERADOR,Frota,Pneus,1
+248,Movimentação de Pneu por Veículo,OPERADOR,Frota,Pneus,1
+251,Movimentação de Pneus para Conserto,OPERADOR,Frota,Pneus,1
+254,Comparativo Mensal de Contas Patrimoniais,CONTABILIDADE,Contabilidade,Movimentação,1
+255,Balancete com Agrupamento,CONTABILIDADE,Contabilidade,Movimentação,1
+258,Lançamento por Lote,CONTABILIDADE,Contabilidade,Movimentação,1
+259,Baixa Contas a Pagar Conferência Contas Parceiros,CONTABILIDADE,Contabilidade,Movimentação,1
+260,Cadastro de Parceiros Comerciais para Excel,CONTABILIDADE,Contabilidade,Movimentação,1
+261,Contas a Receber em Aberto - Conciliação Contábil,CONTABILIDADE,Contabilidade,Movimentação,1
+266,CTRC em Aberto,CONTABILIDADE,Contabilidade,Movimentação,1
+267,Diário Contábil,CONTABILIDADE,Contabilidade,Movimentação,1
+268,Documentos a Pagar em Aberto - Contabilidade,CONTABILIDADE,Contabilidade,Movimentação,1
+270,Documentos Contas a Pagar em Aberto,CONTABILIDADE,Contabilidade,Movimentação,1
+272,Documentos Inconsistentes,CONTABILIDADE,Contabilidade,Movimentação,1
+274,DRE,CONTABILIDADE,Contabilidade,Movimentação,1
+276,DRE por Movimento Contábil Aberto,CONTABILIDADE,Contabilidade,Movimentação,1
+277,DRE por Movimento Contábil,CONTABILIDADE,Contabilidade,Movimentação,1
+278,Entradas Contas a Pagar - Gerencial,CONTABILIDADE,Contabilidade,Movimentação,1
+281,Balancete Conferencia Movimento Mes,CONTABILIDADE,Contabilidade,Movimentação,1
+284,Listagem DRE por Conta Contábil,CONTABILIDADE,Contabilidade,Movimentação,1
+286,Movimento do Contas a Receber por Data de Emissão,CONTABILIDADE,Contabilidade,Movimentação,1
+288,Movimento Tabela Lançamento Bancário,CONTABILIDADE,Contabilidade,Movimentação,1
+289,Entradas do Contas a Pagar Pagos e Não Pagos,CONTABILIDADE,Contabilidade,Movimentação,1
+292,Notas Fiscais de Entrada Sped Pis Cofins,CONTABILIDADE,Contabilidade,Movimentação,1
+295,Plano de Contas x Aglutinador x Referencial,CONTABILIDADE,Contabilidade,Movimentação,1
+296,Razão Analítico por Origem do Documento,CONTABILIDADE,Contabilidade,Movimentação,1
+297,Razão com Parâmetro de Filial,CONTABILIDADE,Contabilidade,Movimentação,1
+299,Relação de Produtos Sped Pis Cofins,CONTABILIDADE,Contabilidade,Movimentação,1
+300,Relatório de Apuração Pis Cofins,CONTABILIDADE,Contabilidade,Movimentação,1
+301,Relatório de Tarefas do Contas a Pagar p/ Excel,CONTABILIDADE,Contabilidade,Movimentação,1
+302,Relatório de Tarefas de Lançamentos Bancários p/ Excel,CONTABILIDADE,Contabilidade,Movimentação,1
+303,Relatório de Tarefas - Materiais p/ Excel,CONTABILIDADE,Contabilidade,Movimentação,1
+305,Saldo Conta Referencial,CONTABILIDADE,Contabilidade,Movimentação,1
+306,Abertura e Encerramento de ISS,FISCAIS,Fiscal,Movimentação,1
+307,Apuração de ICMS Mensal,FISCAIS,Fiscal,Movimentação,0
+310,Livro de Abertura e Encerramento,FISCAIS,Fiscal,Movimentação,0
+312,Livro de Entradas,FISCAIS,Fiscal,Movimentação,0
+313,Livro de Rateio de Entradas Interestaduais (Origem),FISCAIS,Fiscal,Movimentação,0
+314,Livro de Rateio de Saídas Interestaduais (Destino),FISCAIS,Fiscal,Movimentação,0
+315,Livro de Saídas,FISCAIS,Fiscal,Movimentação,0
+316,Livro de Saídas com CNPJ/CPF Pagador,FISCAIS,Fiscal,Movimentação,0
+317,Livro de Serviços Prestados Municipais,FISCAIS,Fiscal,Movimentação,0
+318,Livro de Rateio de Saídas por Município - DIPAM,FISCAIS,Fiscal,Movimentação,0
+320,Movimentação por CFOP,FISCAIS,Fiscal,Movimentação,0
+321,Movimentação de Entrada de Estado Detalhado,FISCAIS,Fiscal,Movimentação,0
+322,Movimentação de Saída por Estado CFOP,FISCAIS,Fiscal,Movimentação,0
+323,Conferencia TMS Emissão CTE X Livros fiscais,OPERADOR,Fiscal,Movimentação,1
+324,Balanço Patrimonial,CONTABILIDADE,Contabilidade,Movimentação,1
+325,Conferencia retenções PCC,FISCAIS,Fiscal,Movimentação,0
+327,Balanço Patrimonial auditoria,CONTABILIDADE,Contabilidade,Movimentação,1
+329,Serviços Prestados por Município,FISCAIS,Fiscal,Movimentação,0
+330,Registro Serviços Tomados,FISCAIS,Fiscal,Movimentação,0
+331,Emissão NFS-e  PM Guarulhos,OPERADOR - FILIAL,Faturamento,Movimentação,1
+332,Emissão NFS-e  PM Campinas,OPERADOR,Faturamento,Movimentação,1
+333,Emissão NFS-e  PM Cubatão,OPERADOR,Faturamento,Movimentação,1
+334,Emissão NFS-e  PM Rio de Janeiro,OPERADOR,Faturamento,Movimentação,1
+335,Ordem de Serviço Veiculo por Situação,MANUTENÇÃO,Manutencao,Movimentação,0
+337,Livro de Entrada - Detalhe fornecedor,OPERADOR,Fiscal,Livros Fiscais,1
+338,Extrato Bancario,OPERADOR,Bancos,Movimentação Bancária,1
+339,Nota de Débito,OPERADOR,Faturamento,Movimentação,1
+340,Volta Pedido Pendente para Cadastrado,SUPER SIGILOSO,Materiais,Movimentação,0
+341,Extrato de fechamento - Tributos,OPERADOR,Tributos,Movimentação,1
+342,Ordem de Coleta ((Container)),OPERADOR - FILIAL,Faturamento,Movimentação,1
+343,Emissão Ordem de Serviço de Transportes ((OST)),OPERADOR - FILIAL,Faturamento,Movimentação,1
+344,Contratos de Fornecedores,OPERADOR,Fluxo de Caixa,Cadastrais,1
+345,Autorização de Pagamento,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+346,Razao Contabil por Centro de Custos,OPERADOR,Contabilidade,Movimentação,1
+347,Conferencia de retenções,OPERADOR,Fiscal,Movimentação,1
+348,Emissao Contrato de Frete,OPERADOR - FILIAL,Faturamento,Movimentação,1
+349,Relação de Contratos de Frete por periodo,OPERADOR - FILIAL,Faturamento,Movimentação,1
+350,Relação de OST não Transferidas,OPERADOR - FILIAL,Faturamento,Movimentação,1
+351,Relação de ACT não Transferidas,OPERADOR - FILIAL,Faturamento,Movimentação,1
+352,CT-e Não Faturados Geral,OPERADOR - FILIAL,Faturamento,Movimentação,1
+353,Log de Lotes Contábeis com diferença,OPERADOR,Contabilidade,Movimentação,1
+355,Log Lotes Contábeis Erros,OPERADOR,Contabilidade,Movimentação,1
+356,Relação CTe em Pre-fatura,OPERADOR - FILIAL,Faturamento,Movimentação,1
+357,Produtividade da Frota,OPERADOR,Faturamento,Movimentação,1
+358,CTe sem tabelas,OPERADOR,Utilitarios,Cadastrais,1
+360,DRE por Unidade de Negocio,CONTABILIDADE,Contabilidade,Movimentação,1
+361,Balancete Rateio,OPERADOR,Contabilidade,Movimentação,1
+363,Balancete Detalhado,CONTABILIDADE,Contabilidade,Movimentação,1
+365,Resumo Programação de Carga,OPERADOR,Faturamento,Movimentação,1
+366,Emissão de Documentos por Empresa - Resumido.,OPERADOR,Faturamento,Movimentação,1
+368,Emissão de Documentos por Cliente - Resumido.,OPERADOR,Faturamento,Movimentação,1
+371,Viagens x Doc - Excel,OPERADOR - FILIAL,Faturamento,Movimentação,1
+372,Emissão de Documentos por Centro de Custo - Resumido.,OPERADOR,Faturamento,Movimentação,1
+373,Emissão de Documentos por Tipo de Frota - Resumido.,OPERADOR,Faturamento,Movimentação,1
+382,Emissão de Documentos por Unid. Negocio - Detalhado,OPERADOR,Faturamento,Movimentação,1
+383,Emissão de Documentos por Centro Gasto - Detalhado,OPERADOR,Faturamento,Movimentação,1
+385,Contas à Pagar por Vencimento / Fornecedor,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+386,Contas à Pagar por Vencimento / Empresa,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+387,Contas à Pagar por Vencimento / Filial,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+392,Contas à Pagar por Vencimento / Classif. Analítica,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+393,Contas à Pagar Pagos por Fornecedor,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+394,Contas à Pagar Pagos por Empresa,TI - SISTEMAS,Fluxo de Caixa,Contas a Pagar,1
+395,Contas à Pagar Pagos por Filial,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+398,Contas à Pagar Pagos por Classif. Sintetica,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+399,Contas à Pagar Pagos por Classif. Analitico,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+403,Contas à Receber por Vencimento / Unid. Negocio,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+407,Contas à Receber por Pagos / Filial,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+409,Contas à Receber por Pagos / Centro de Gasto,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+410,Contas à Receber por Pagos / Centro de Custo,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+411,Emissão Itinerário por Rota (Por Romaneio),OPERADOR,Faturamento,Movimentação,1
+416,Relação de Programação de Carga,OPERADOR,Programacao,Movimentação,1
+417,Relação de Programação de Veículo,OPERADOR,Programacao,Movimentação,1
+418,Resumo de Programações de Carga por Cliente Diario,OPERADOR,Programacao,Movimentação,1
+419,Resumo de Programações de Veículo por Cliente Diario,OPERADOR,Programacao,Movimentação,1
+420,Resumo de CT-e(s) por Cliente Diario,OPERADOR,Faturamento,Movimentação,1
+421,Resumo de OST(s) por Cliente Diario,OPERADOR,Faturamento,Movimentação,1
+422,Resumo de NFS-e(s) por Cliente Diario,OPERADOR,Faturamento,Movimentação,1
+423,Relação de Cursos por Motorista,OPERADOR,Frota,Movimentação,1
+424,Relação de Cursos Vencidos/A Vencer por Curso,OPERADOR,Frota,Movimentação,1
+425,Relação de Cursos Vencidos/A Vencer por Motorista,OPERADOR,Frota,Movimentação,1
+426,Relação de Ficha de Tráfego por Motorista,OPERADOR,Frota,Movimentação,1
+427,Acerto de Contas,OPERADOR,Frota,Movimentação,1
+428,Relacao de Faturas Emitidas por Filial,OPERADOR,Faturamento,Movimentação,1
+429,Exportação Abastecimento Externo Contabil,CONTABILIDADE,Contabilidade,Movimentação,1
+431,Licenças de Veículos a Vencer,OPERADOR,Frota,Movimentação,1
+434,Relatorio de Pedido por Grupo de Produto,OPERADOR,Materiais,Movimentação,1
+438,Lançamento por Tipo Bancário,OPERADOR,Contabilidade,Movimentação,1
+439,Resultado Consolidado,CONTABILIDADE,Contabilidade,Movimentação,1
+444,Relacao Ativo Imobilizado,CONTABILIDADE,Patrimonio,Cadastrais,1
+445,Conferencia Depreciacao Ativo Mensal (Depreciação Contábil Lei11638),CONTABILIDADE,Patrimonio,Cadastrais,1
+446,Balancete Acumulado Anual,CONTABILIDADE,Contabilidade,Movimentação,1
+448,Romaneio de Carregamento,OPERADOR,Faturamento,Movimentação,1
+449,Romaneio de Descarga,OPERADOR - FILIAL,Faturamento,Movimentação,1
+450,Emissão Itinerário por Rota (Por Manifesto),OPERADOR - FILIAL,Faturamento,Movimentação,1
+451,Relação de CTE`s,OPERADOR - FILIAL,Faturamento,Movimentação,1
+452,Diário Contábil - Excel,CONTABILIDADE,Contabilidade,Movimentação,1
+454,Listagem Contabil Completa,CONTABILIDADE,Contabilidade,Movimentação,1
+456,Romaneio Novelis,OPERADOR,Faturamento,Movimentação,1
+458,Emissão ROC - Indicado 01 Composição,OPERADOR - FILIAL,Faturamento,Movimentação,1
+459,Conferencia Depreciacao Ativo Anual (Depreciação Contábil Lei11638),CONTABILIDADE,Patrimonio,Cadastrais,1
+460,Conferencia Financeiro Ativo (DEP. Societária),CONTABILIDADE,Patrimonio,Cadastrais,1
+461,BASE PROVISÃO - JOHN DEER,OPERADOR - FILIAL,Faturamento,Movimentação,1
+462,Relatório Auditoria de Frete,OPERADOR - FILIAL,Faturamento,Operacional - Filial,1
+463,Faturamento V6,SUPERVISOR,Faturamento,Movimentação,0
+464,Relação de Lançamentos Bancarios,ADMINISTRATIVO,Bancos,Movimentação Bancária,1
+467,Relação de Acessos de Usuários,TI - SISTEMAS,Utilitarios,Cadastrais,1
+469,Relação de Ocorrencia por NF,OPERADOR,Faturamento,Movimentação,1
+470,Emissão OCC (( FORMULARIO )),OPERADOR - FILIAL,Faturamento,Movimentação,1
+471,Adiantamentos ADF,OPERADOR,Fluxo de Caixa,Movimentação,1
+472,Balancete Acumulado Anual,CONTABILIDADE,Contabilidade,Movimentação,1
+473,Log Rateio por Manifesto,OPERADOR,Faturamento,Movimentação,1
+475,Conferencia Contabil,OPERADOR,Contabilidade,Movimentação,1
+476,Relatorio Faturamento por Filial de Atendimento,OPERADOR,Faturamento,Movimentação,1
+477,Tabela de Região,OPERADOR,Faturamento,Movimentação,1
+478,Auditoria de Comprovantes,OPERADOR,Faturamento,Movimentação,1
+479,Manifestos Pendentes de Baixa e/ou Encerramento,OPERADOR - FILIAL,Faturamento,Movimentação,1
+481,Relação de Contas a Receber Origem Manual,OPERADOR,Fluxo de Caixa,Movimentação,1
+482,Relação de Custo Manutenção por Pedido,OPERADOR,Manutencao,Movimentação,1
+483,Relatório de Frete John Deere,OPERADOR,Faturamento,Movimentação,1
+484,Checklist Faturas MAN,OPERADOR,Faturamento,Movimentação,1
+485,Conferência Numeração CTe,OPERADOR,Fiscal,Livros Fiscais,1
+486,CTe Inutilizados,OPERADOR,Fiscal,Livros Fiscais,1
+487,Relação de Cte`s Comercial,OPERADOR,Faturamento,Movimentação,1
+490,Relação de Ctes com Baixa Banco 997 e 999,OPERADOR,Faturamento,Movimentação,1
+491,Relação NF X CTE X Fatura,OPERADOR,Faturamento,Movimentação,1
+494,Relação de OS / Pedido,OPERADOR,Manutencao,Movimentação,1
+495,Produtividade Faturamento por Unidade de Negócio,OPERADOR,Faturamento,Movimentação,1
+496,Relação Contas a Pagar Completo - Excel (Em teste),OPERADOR,Fluxo de Caixa,Movimentação,1
+498,Ponto Motorista,OPERADOR,Frota,Movimentação,1
+499,Carta Advertência por Motorista,OPERADOR,Frota,Movimentação,1
+500,Carta Advertência por Veículos,OPERADOR,Frota,Movimentação,1
+501,Relatorio Proprietario / Motorista Startruck,OPERADOR,Frota,Cadastrais,1
+502,Relatório Startruck,OPERADOR,Frota,Movimentação,1
+503,Relação de Sub-Produtos PC,OPERADOR,Faturamento,Movimentação,1
+504,Situação de Documentos Faturados (Documentos Antigos - Temporario),OPERADOR,Fluxo de Caixa,Contas a Receber,1
+506,Auditoria Contratos,OPERADOR,Faturamento,Movimentação,1
+507,Estoque Produtos Geral,OPERADOR,Materiais,Movimentação,1
+508,Relação Docs Mirassol (CTE/OST/NF),OPERADOR,Faturamento,Movimentação,1
+509,Libera Acesso Botões CTRB,SUPER SIGILOSO,Utilitarios,Cadastrais,0
+510,Relatorio KPI CTe / NF Cancelados (MACRO),OPERADOR,Faturamento,Movimentação,1
+511,Lista Parceiros Comerciais,OPERADOR,Materiais,Cadastrais,1
+512,Relatorio KPI Contrato x DOC,OPERADOR,Faturamento,Movimentação,1
+513,Relatorio KPI CTe / NF Efetivos (MACRO),OPERADOR,Faturamento,Movimentação,1
+514,Relatorio KPI Faturamento,OPERADOR,Faturamento,Movimentação,1
+516,Protocolo de Entrega,OPERADOR,Utilitarios,Cadastrais,1
+517,Protocolo de Entrega MAN,OPERADOR,Utilitarios,Cadastrais,1
+519,TEMPO EMISSÃO,OPERADOR,Faturamento,Movimentação,1
+520,Relação NF X CTE X Fatura X Pré Fatura,OPERADOR,Faturamento,Movimentação,1
+521,Relação de Pedidos de Compra,OPERADOR,Materiais,Movimentação,1
+522,Relatorio Diario de Bordo,OPERADOR,Faturamento,Movimentação,1
+523,Relatorio Notas Fiscais John Deere,OPERADOR - FILIAL,Faturamento,Movimentação,1
+524,Relatorio Diario de Bordo FLEXTRONICS,OPERADOR,Faturamento,Movimentação,1
+525,Controle de Jornada,OPERADOR,Frota,Movimentação,1
+526,Relatório de Fretes,OPERADOR,Faturamento,Movimentação,1
+529,REINF - Bloco 2010,OPERADOR,Fiscal,Livros Fiscais,1
+530,REINF - Bloco 2020,OPERADOR,Fiscal,Livros Fiscais,1
+532,Faturamento Gestao de Rateio,OPERADOR - FILIAL,Faturamento,Cadastrais,1
+534,NF-e envio Cliente,OPERADOR,Faturamento,Movimentação,1
+535,Emissão ROC Coleta,OPERADOR - FILIAL,Faturamento,Movimentação,1
+536,KPI Coletas,OPERADOR - FILIAL,Faturamento,Movimentação,1
+537,Relação de Coletas (OST) não baixadas (MACRO),OPERADOR - FILIAL,Faturamento,Movimentação,1
+538,Relação Manifestos X Cte,OPERADOR - FILIAL,Faturamento,Movimentação,1
+539,STANDART TEMPLATE,OPERADOR - FILIAL,Faturamento,Movimentação,1
+540,Relação Docs Comercial,OPERADOR,Comercial,Cadastrais,1
+542,CONTRATOS RODOPAR X CONTRATOS REPOM/RODOCRED PENDENTES DE ENVIO,OPERADOR,Faturamento,Movimentação,1
+543,Plano de Contas,OPERADOR,Contabilidade,Cadastrais,1
+545,Situação de Documentos Faturados Baixa por Aviso,OPERADOR,Contabilidade,Movimentação,1
+546,Exclui Nota Fiscal OST,GERENTE,Faturamento,Movimentação,0
+547,PRÉ FATURA FLEX,OPERADOR,Faturamento,Movimentação,1
+548,Movimentação Entrada e Saída WMS,OPERADOR,WMS - Armazenagem,Movimentações,1
+549,Inventário WMS,OPERADOR,WMS - Armazenagem,Movimentações,1
+550,Livro Entrada,OPERADOR,WMS - Armazenagem,Movimentações,1
+551,Livro Saída,OPERADOR,WMS - Armazenagem,Movimentações,1
+552,ETIQUETA UAM,OPERADOR,WMS - Armazenagem,Movimentações,1
+553,Relatorio Emissão Geral JD,OPERADOR,Faturamento,Movimentação,1
+555,Relação de Código de Horário,OPERADOR,Programacao,Cadastrais,1
+556,Relatório Auditoria (Em Teste),OPERADOR,Faturamento,Movimentação,1
+558,Emissão Ordem de Coleta,OPERADOR,Faturamento,Movimentação,1
+559,CONTROLE ORCAMENTARIO,OPERADOR,Fluxo de Caixa,Previsão Orçamentária,1
+560,Acompanhamento Ciclo Carga,OPERADOR,Programacao,Movimentação,1
+561,Relação de Programação de Carga (Excel),OPERADOR,Faturamento,Movimentação,1
+562,Relação de Motoristas,OPERADOR,Faturamento,Movimentação,1
+563,Veiculos para Revisão por Item Revisionais,OPERADOR,Manutencao,Movimentação,1
+565,REINF BLOCO 2060,OPERADOR,Fiscal,Livros Fiscais,1
+566,Relação de Pneus Completa,OPERADOR,Materiais,Cadastrais,1
+567,EMISSAO DACTE - QRCODE,OPERADOR,Faturamento,Movimentação,1
+568,Ocorrencias por Manifestos (EXCEL),OPERADOR,Faturamento,Movimentação,1
+569,Relatorio de Deslocamento de Vazio po Placa,OPERADOR,Frota,Movimentação,1
+570,Esquematica Completa,OPERADOR,Frota,Movimentação,1
+572,LIVRO CIAP,OPERADOR,Patrimonio,Cadastrais,1
+574,Relação de OS Entrada por Contrato,OPERADOR,WMS - Armazenagem,Movimentações,1
+575,Relação de OS Saída por Contrato,OPERADOR,WMS - Armazenagem,Movimentações,1
+576,Conferencias Pendentes de UA,OPERADOR,WMS - Armazenagem,Movimentações,1
+577,Documentos Aguardando Conferencia de UA,OPERADOR,WMS - Armazenagem,Movimentações,1
+578,Documentos Aguardando Endereçamento de UA,OPERADOR,WMS - Armazenagem,Movimentações,1
+580,Saldo Produtos por Endereço,OPERADOR,WMS - Armazenagem,Movimentações,1
+581,Relação de tabela de frete por agregado (detalhada),OPERADOR,Faturamento,Cadastrais,1
+582,Relação de tabelas de frete por manifesto,OPERADOR,Faturamento,Cadastrais,1
+583,Remessa Contas a Pagar,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+584,Relatório de Fretes Romaneio de Descarga,OPERADOR,Faturamento,Movimentação,1
+585,Conferencia Depreci. Ativo Anual NOVO (Depreciação Contábil Lei11638),OPERADOR,Patrimonio,Cadastrais,1
+588,Comissão Motorista,OPERADOR,Frota,Viagens,1
+589,Tabelas de agregados,OPERADOR,Faturamento,Cadastrais,1
+590,Tabelas por Manifesto,OPERADOR,Faturamento,Cadastrais,1
+591,Relatório Auditoria filtro por contrato,OPERADOR,Faturamento,Movimentação,1
+592,Gera Lançamento Viagem Comissão,OPERADOR,Frota,Viagens,1
+593,Resumo Comissão Motorista,OPERADOR,Frota,Viagens,1
+595,Acompanhamento de Ocorrencias por Viagem,OPERADOR,Programacao,Movimentação,1
+597,Usuários Permissão de acesso,OPERADOR,Faturamento,Cadastrais,1
+598,Etiqueta de localização,OPERADOR,WMS - Armazenagem,Movimentações,1
+599,Auditoria de comprovantes V2,OPERADOR,Faturamento,Movimentação,1
+601,RPV MIRASSOL V2 - VEÍCULO,OPERADOR,Faturamento,Movimentação,1
+602,Dados CTE,OPERADOR,Faturamento,Movimentação,1
+603,Dados Nota Fiscal OST,OPERADOR,Faturamento,Movimentação,1
+604,VIAGENS SEM CUSTO MDF,OPERADOR,Faturamento,Movimentação,1
+605,Conferência Cega,OPERADOR,WMS - Armazenagem,Movimentações,1
+606,Inbound Outbound,OPERADOR,WMS - Armazenagem,Movimentações,1
+607,Saldo Produto por Localização,OPERADOR,WMS - Armazenagem,Movimentações,1
+608,Razão Conciliação,OPERADOR,Contabilidade,Movimentação,1
+609,Envio MDFE por Email,OPERADOR,Faturamento,Movimentação,1
+610,RPV MIRASSOL V2 - UNIDADE DE NEGÓCIO,OPERADOR,Faturamento,Movimentação,1
+614,DAMDFE_3A_CONTIGENCIA,OPERADOR,Faturamento,Movimentação,1
+615,DACTE_3A_PDF,OPERADOR,Faturamento,Movimentação,1
+619,Comissão de Vendedores a Receber,OPERADOR,Faturamento,Movimentação,1
+620,Painel Gerenciamento de Ocorrências (MACRO),OPERADOR,Programacao,Movimentação,1
+621,Dados Doc (MACRO),OPERADOR,Faturamento,Cadastrais,1
+622,Pedido de Compra PDF,TI - SISTEMAS,Materiais,Movimentação,1
+623,Etiqueta Apartamento,OPERADOR,WMS - Armazenagem,Movimentações,1
+624,Etiqueta de UA,OPERADOR,WMS - Armazenagem,Movimentações,1
+625,Código de barras por produto IMD,OPERADOR,WMS - Armazenagem,Movimentações,1
+626,Cursos e Licenças por Veículo,OPERADOR,Frota,Cadastrais,1
+628,REFRESH ROMANEIO DESCARGA (RATEIO JOHN DEEER),GERENTE,Faturamento,Movimentação,0
+629,REFRESH ROMANEIO CARREGAMENTO (RATEIO JOHN DEEER),GERENTE,Faturamento,Movimentação,0
+630,Dados Ordem de Serviço em Andamento,OPERADOR,Frota,Movimentação,1
+631,Programações x OST x Manifesto,OPERADOR,Programacao,Movimentação,1
+632,Balancete Anual,OPERADOR,Contabilidade,Movimentação,1
+633,Etiqueta endereço WMS,OPERADOR,WMS - Armazenagem,Movimentações,1
+634,Etiqueta,OPERADOR,WMS - Armazenagem,Movimentações,1
+635,Etiqueta Apartamento Caixa,OPERADOR,WMS - Armazenagem,Movimentações,1
+636,Etiqueta UA,OPERADOR,WMS - Armazenagem,Movimentações,1
+637,Etiqueta Apartamento Colmeia,OPERADOR,WMS - Armazenagem,Movimentações,1
+638,Relação de CTe Subcontatação - Frota Própria,OPERADOR,Faturamento,Movimentação,1
+639,Emissão Ordem de Serviço de Transportes ((OST)) (CODIGO BARRAS),OPERADOR,Faturamento,Cadastrais,1
+641,Ordem de Coleta ((Container)),OPERADOR,Faturamento,Cadastrais,1
+642,Relação de CTe`s Transferencia/Coleta JD,OPERADOR,Faturamento,Movimentação,1
+643,Controle Entrada/Saída Cross-Docking,OPERADOR,Faturamento,Movimentação,1
+644,Deslocamento Vazio por período,OPERADOR,Frota,Movimentação,1
+645,Percentual de pedágio JD - Roc carregamento,OPERADOR,Faturamento,Movimentação,1
+646,Percentual de pedágio JD - Roc descarga,OPERADOR,Faturamento,Movimentação,1
+647,Dados Doc V2,OPERADOR,Faturamento,Movimentação,1
+648,DRE V1,CONTABILIDADE,Contabilidade,Movimentação,1
+649,Relatório Auditoria CTRB,OPERADOR,Faturamento,Cadastrais,1
+650,Cadastro WMS,OPERADOR,WMS - Armazenagem,Movimentações,1
+651,Deslocamento Vazio V2,OPERADOR,Faturamento,Cadastrais,1
+652,Relatório Painel (MACRO),OPERADOR,Faturamento,Cadastrais,1
+654,Altera dados Container OST,SUPER SIGILOSO,Faturamento,Movimentação,0
+655,OST INTERNACIONAL,TI - SISTEMAS,Faturamento,Movimentação,1
+656,Balancete Empresa,OPERADOR,Contabilidade,Movimentação,1
+657,Tabela de Frete Entregas/Pallet,OPERADOR,Faturamento,Cadastrais,1
+658,Acompanhamento Averbação,OPERADOR,Faturamento,Cadastrais,1
+659,Documentos Orçamento,OPERADOR,Fluxo de Caixa,Previsão Orçamentária,1
+660,Medição Petrobras,OPERADOR,Faturamento,Movimentação,1
+661,Medição Petrobras V2,OPERADOR,Faturamento,Cadastrais,1
+662,Cadastro de Cartão,MANUTENÇÃO,Frota,Abastecimento,0
+663,UPDATE INSERIR REFERÊNCIA,OPERADOR,Programacao,Cadastrais,1
+664,Controle Pedidos Aprovação e Liberação,OPERADOR,Materiais,Movimentação,1
+665,Vinculo Manifesto x Documento,OPERADOR,Faturamento,Movimentação,1
+667,Licenças por Veículo e Motorista,OPERADOR,Frota,Cadastrais,1
+668,Relatório Auditoria filtro por contrato V2,OPERADOR,Faturamento,Cadastrais,1
+669,Relação Manifestos x Cte (MACRO),OPERADOR,Faturamento,Cadastrais,1
+670,Proxima parada manutenção,OPERADOR,Manutencao,Movimentação,1
+671,Acompanhamento de Averbação (M),OPERADOR,Faturamento,Cadastrais,1
+672,Analise de Diferença Doc x Classificação,OPERADOR,Contabilidade,Movimentação,1
+673,Rotas AngelLira x Rodopar,OPERADOR,Faturamento,Cadastrais,1
+675,Posição Pneu Estoque,OPERADOR,Frota,Pneus,1
+676,Controle Pneus por Veículo,OPERADOR,Frota,Pneus,1
+677,Controle Horimetro Equipamentos,OPERADOR,Frota,Cadastrais,1
+678,UPDATE STATUS OS,OPERADOR,Fiscal,Cadastrais,1
+679,Dados Notas Fiscais,OPERADOR,Faturamento,Cadastrais,1
+680,Estatisticas de Uso Rodopar,SUPER SIGILOSO,Utilitarios,Cadastrais,0
+681,Nota Fiscal em Transito,OPERADOR,Faturamento,Cadastrais,1
+683,UPDATE SITUACAO MOTORISTA,AUDITORIA,Frota,Cadastrais,0
+684,CANCELA OST SEQUENCIAL,SUPER SIGILOSO,Faturamento,Movimentação,0
+686,NFT PDF,TI - SISTEMAS,Faturamento,Movimentação,1
+687,Relação Requisições de Compra,OPERADOR,Materiais,Cadastrais,1
+688,Ultima posição Rastreador com KM,OPERADOR,Frota,Movimentação,1
+689,UPDATE FILIAL PEDIDO,HOMOLOGACAO,Materiais,Movimentação,0
+690,Emissão Requisição de Compra PDF,TI - SISTEMAS,Materiais,Movimentação,1
+691,Cursos por Fornecedores,OPERADOR,Faturamento,Cadastrais,1
+692,UPDATE LATLONG,EDITA_LOT_LONG,Faturamento,Cadastrais,0
+693,Reajuste Frete Emtregas/Pallets,HOMOLOGACAO,Faturamento,Cadastrais,0
+694,Reajuste Frete por Agregado,HOMOLOGACAO,Faturamento,Cadastrais,0
+695,Relação de Notas de Entrada por Pedido,OPERADOR,Materiais,Cadastrais,1
+696,UPDATE SITUACAO VEICULO,AUDITORIA,Frota,Movimentação,0
+698,Emissão ROC - Indicado 02 Composição,OPERADOR - FILIAL,Faturamento,Movimentação,1
+699,UPDATE DATA PREV PEDIDO,OPERADOR,Materiais,Movimentação,1
+700,Relação de Coletas (OST) não baixadas (MACRO)  V2,OPERADOR,Faturamento,Cadastrais,1
+702,RNC,OPERADOR,SSMQ,Movimentação,1
+703,Termo de Ocorrência,OPERADOR,SSMQ,Movimentação,1
+704,Relação Entrada de Materiais por Produtos,OPERADOR,Materiais,Cadastrais,1
+705,UPDATE PC,TI - SISTEMAS,Programacao,Movimentação,1
+706,UPDATE CARTÃO,TI - SISTEMAS,Frota,Cadastrais,1
+707,APURAÇÃO LUCRO V2,OPERADOR,Faturamento,Cadastrais,1
+708,Volta Requisição Pendente para Cadastrado,OPERADOR,Materiais,Movimentação,1
+709,Analise Fatura,OPERADOR,Faturamento,Cadastrais,1
+710,UPDATE AVERBAÇÃO OST POR MANIFESTO,TI - SISTEMAS,Faturamento,Cadastrais,1
+711,UPDATE DADOS OST,TI - SISTEMAS,Faturamento,Cadastrais,1
+712,Relatório All in One 3A (Por RMD),OPERADOR - FILIAL,Faturamento,Movimentação,1
+713,Manifesto de Carga M3,OPERADOR,Faturamento,Cadastrais,1
+714,Documento Comprobatório de Entrega M3,OPERADOR,Faturamento,Cadastrais,1
+715,UPDATE AUTORIZAÇÃO NOTA,TI - SISTEMAS,Faturamento,Cadastrais,1
+716,UPDATE SITUACÃO OST,TI - SISTEMAS,Faturamento,Cadastrais,1
+717,Emissão de Fatura M3,OPERADOR,Faturamento,Cadastrais,1
+719,Relatório All in One 3A (Por RMD) M3,OPERADOR,Faturamento,Cadastrais,1
+720,Emissão Ordem de Coleta M3,OPERADOR,Faturamento,Cadastrais,1
+721,Romaneio Carregamento M3,OPERADOR,Faturamento,Cadastrais,1
+722,UPDATE VOLTA OST PARA CADASTRADO POR MANIFESTO,TI - SISTEMAS,Faturamento,Cadastrais,1
+723,Emissão NFS-e Jundiai,OPERADOR,Faturamento,Cadastrais,1
+725,Manifesto,OPERADOR,Faturamento,Cadastrais,1
+726,SAC,OPERADOR,Programacao,Movimentação,1
+727,Relatório Faturamento M3 por Documento,OPERADOR,Faturamento,Cadastrais,1
+728,Follow UP Operacional,OPERADOR,Faturamento,Cadastrais,1
+729,Análise Envio de Emails de Pedidos,OPERADOR,Materiais,Cadastrais,1
+731,Relação OCS,OPERADOR,Faturamento,Cadastrais,1
+732,NFS Jundiai Email,OPERADOR,Faturamento,Movimentação,1
+733,Emissão ROC - Com Destinatario,OPERADOR,Faturamento,Movimentação,1
+734,Mapa Transportes Policia Federal,OPERADOR,Faturamento,Movimentação,1
+735,Envia Email Manifesto,OPERADOR,Faturamento,Cadastrais,1
+736,Relatório de Aquisições,CONTABILIDADE,Patrimonio,Cadastrais,1
+737,Operacional Grupo Mirassol,OPERADOR,Faturamento,Cadastrais,1
+738,BI Indicador de Segurança (Jornada Parada),OPERADOR,Frota,Movimentação,1
+739,UPDATE ZERA QUANTIDADE OST,TI - SISTEMAS,Faturamento,Cadastrais,1
+740,GERA PC/PV POR OST,TI - SISTEMAS,Faturamento,Movimentação,1
+741,Relação de Baixas por Aviso Bancário,OPERADOR,Fluxo de Caixa,Movimentação,1
+742,Relação de Documentos com Ocorrência de Recusa,OPERADOR,Faturamento,Cadastrais,1
+744,GERA PC/PV POR OST por LOTE,OPERADOR,Faturamento,Movimentação,1
+745,Etiqueta CrossDocking QRCODE (POR LOTE),OPERADOR,Faturamento,Cadastrais,1
+746,Capa CrossDocking,OPERADOR,Faturamento,Cadastrais,1
+747,Movimentação Portaria,OPERADOR,Portaria,Movimentação,1
+748,Movimentação Recepção,OPERADOR,Portaria,Movimentação,1
+749,Relação de Entrada/Saidas Portaria,OPERADOR,Portaria,Movimentação,1
+750,Relacao de Faturas Emitidas por Filial - V2,OPERADOR,Faturamento,Cadastrais,1
+752,Razao Analitico - Otimizado,OPERADOR,Contabilidade,Movimentação,1
+754,UPDATE DADOS CTE SITUACAO - AUTORIZACAO,TI - SISTEMAS,Faturamento,Cadastrais,1
+755,Comissão de Vendedores - Margem Contribuição Operacional,TI - SISTEMAS,Comercial,Cadastrais,1
+756,Movimentação de Anexos O.S,OPERADOR,Materiais,Movimentação,1
+757,Consulta Anexo Pedido,OPERADOR,Materiais,Movimentação,1
+758,Analise Cotação,OPERADOR,Materiais,Movimentação,1
+759,Mapeamento Documentos,OPERADOR,Programacao,Movimentação,1
+760,UPDATE REFERÊNCIA CTE,TI - SISTEMAS,Faturamento,Cadastrais,1
+761,UPDATE REFERÊNCIA OST,TI - SISTEMAS,Faturamento,Cadastrais,1
+762,UPDATE GRO SITUAÇÃO,TI - SISTEMAS,Programacao,Movimentação,1
+763,UPDATE ENCERRAMENTO MANIFESTO,TI - SISTEMAS,Faturamento,Cadastrais,1
+764,Listagem Comissão,OPERADOR,Frota,Movimentação,1
+765,Acompanhamento de status Pedidos/OS,OPERADOR,Materiais,Movimentação,1
+766,Relação GRO x DOC,OPERADOR,Programacao,Movimentação,1
+767,Romaneio Sem Check-list,OPERADOR,Faturamento,Movimentação,1
+768,Romaneio Sem Anexo,OPERADOR,Faturamento,Movimentação,1
+769,PEDIDO EMERGENCIAL,TI - SISTEMAS,Materiais,Movimentação,1
+770,Relação de Contratos de Frete por periodo V2,OPERADOR - FILIAL,Faturamento,Movimentação,1
+771,Horario Programação,OPERADOR,Programacao,Movimentação,1
+772,Auditoria Carreteiro,OPERADOR,Faturamento,Movimentação,1
+773,Relação de Romaneio Descarga X Carregamento,OPERADOR,Faturamento,Cadastrais,1
+774,Resultado consolidado V2,OPERADOR,Contabilidade,Movimentação,1
+775,UPDATE DADOS OST POR LOTE,TI - SISTEMAS,Faturamento,Cadastrais,1
+776,Emissao Contrato de Frete Terceiro (SPOT),OPERADOR,Faturamento,Cadastrais,1
+777,Etiqueta Descarga,OPERADOR,Faturamento,Movimentação,1
+778,Relação Eventos Adicionais,OPERADOR,Faturamento,Cadastrais,1
+779,Conferência de Volumes Operacional,OPERADOR,Faturamento,Cadastrais,1
+780,Gera Cálculo de Estadia,TI - SISTEMAS,Faturamento,Cadastrais,1
+781,Estadia,OPERADOR,Faturamento,Movimentação,1
+782,Seguros,OPERADOR,Faturamento,Movimentação,1
+783,Taxas Adicionais,OPERADOR,Faturamento,Movimentação,1
+784,Bens Ativos Depreciação,CONTABILIDADE,Patrimonio,Movimentação,1
+785,Viagens por Manifesto,OPERADOR,Faturamento,Movimentação,1
+786,UPDATE VALE PEDAGIO CTE,TI - SISTEMAS,Faturamento,Cadastrais,1
+787,Conferência Pedagio x Manifesto,OPERADOR,Faturamento,Movimentação,1
+788,UPDATE ZERA PROGRAMAÇÃO,TI - SISTEMAS,Faturamento,Cadastrais,1
+789,PAINEL OPERACIONAL CUBATÃO,OPERADOR,Faturamento,Cadastrais,1
+790,Emissao Nota Fiscal de Servico - ILC,OPERADOR,Faturamento,Movimentação,1
+791,Comprovantes Pententes,OPERADOR,Faturamento,Movimentação,1
+792,Cursos Funcionarios,OPERADOR,Frota,Movimentação,1
+793,Relação de Veículos com KM,OPERADOR,Frota,Cadastrais,1
+794,UPDATE ENTRADA NF,TI - SISTEMAS,Fluxo de Caixa,Entradas,1
+796,CONFERENCIA_ITENS_NF_ESTOQUE_ICMS_PIS_COFINS,OPERADOR,Fiscal,Movimentação,1
+797,Posição Geral do Estoque por Localização,OPERADOR,Materiais,Movimentação,1
+798,UPDATE CLASSIFICAÇÃO DO ATIVO,TI - SISTEMAS,Patrimonio,Movimentação,1
+799,Etiqueta CrossDocking QRCODE (POR NOTA),OPERADOR,Faturamento,Cadastrais,1
+800,Analítico RNC,OPERADOR,SSMQ,Movimentação,1
+801,Plano Ação,OPERADOR,SSMQ,Movimentação,1
+802,Causas Diretas,OPERADOR,SSMQ,Movimentação,1
+803,Carta de Advertência,OPERADOR,Frota,Cadastrais,1
+804,Relação de Multas,OPERADOR,Frota,Cadastrais,1
+805,Extrato Requisições/Abastecimentos,OPERADOR,Frota,Abastecimento,1
+806,Movimentação Pneus,OPERADOR,Frota,Movimentação,1
+807,Gerencial Fluxo Compensação (em teste),OPERADOR,Fluxo de Caixa,Fluxo de caixa previsto,1
+808,Fluxo Compensação (em teste),OPERADOR,Fluxo de Caixa,Fluxo de caixa previsto,1
+809,RPV Mirassol Unidade de Negócio + Centro de Gasto,OPERADOR,Faturamento,Movimentação,1
+810,Relação NF (Bipagem x NFT),OPERADOR,Faturamento,Cadastrais,1
+811,Releção Notas Fiscais de Serviço,OPERADOR,Faturamento,Movimentação,1
+812,Romaneio de Carregamento Automatizado,OPERADOR,Faturamento,Cadastrais,1
+813,Parceiro Comercial,OPERADOR,Faturamento,Movimentação,1
+814,Motoristas,OPERADOR,Frota,Cadastrais,1
+815,Veiculos,OPERADOR,Frota,Cadastrais,1
+816,Relação de OST`s sem Gate com Evento,OPERADOR,Faturamento,Movimentação,1
+817,Conferencia Financeiro Ativo (DEP. Contábil),CONTABILIDADE,Patrimonio,Cadastrais,1
+818,Cursos a vencer,OPERADOR,Frota,Movimentação,1
+819,Update Pedido End Entrega,HOMOLOGACAO,Materiais,Movimentação,0
+820,Romaneio Sinergia,OPERADOR,Faturamento,Cadastrais,1
+821,TESTE CP_CONTAB,OPERADOR,Contabilidade,Movimentação,1
+822,DECLAN RJ,OPERADOR,Fiscal,Movimentação,1
+823,Relação de Produtos Controlado Por Viagem,OPERADOR,Faturamento,Movimentação,1
+824,Relação de Mão de Obra de Manutenção,OPERADOR,Manutencao,Movimentação,1
+825,Emissao_CTRB_CIOT_MIRASSOL_SPOT_AUTOMATICO,OPERADOR,Faturamento,Cadastrais,1
+826,UPDATE VALE PEDAGIO OST,TI - SISTEMAS,Faturamento,Cadastrais,1
+827,SM X GRO/MANIFESTO,OPERADOR,Programacao,Movimentação,1
+828,Fechamento Viagens - Comissão,OPERADOR,Frota,Movimentação,1
+829,Medição de Comprovante de Entrega (MACRO),OPERADOR,Faturamento,Cadastrais,1
+830,Faturamento ALL IN ONE,OPERADOR,Faturamento,Cadastrais,1
+831,Fatura Envio Automatico,OPERADOR,Faturamento,Cadastrais,1
+832,Capa Embalagem JD Louveira,OPERADOR,Faturamento,Cadastrais,1
+833,UPDATE LIBERA DUPLICIDADE NF,TI - SISTEMAS,Faturamento,Cadastrais,1
+834,Emissao Contrato de Frete Flextronics,OPERADOR,Faturamento,Movimentação,1
+835,Relatório Contas a Receber,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+836,Diploma Cursos e Licenças,OPERADOR,Frota,Movimentação,1
+837,Romaneio Carregamento Descarga,OPERADOR,Faturamento,Movimentação,1
+838,Patrimonio Baixado por Ano,CONTABILIDADE,Patrimonio,Cadastrais,1
+839,Capa CrossDocking M3 (POR NOTA),OPERADOR,Faturamento,Cadastrais,1
+840,Etiqueta CrossDocking QRCODE M3 (POR VOLUME),OPERADOR,Faturamento,Cadastrais,1
+841,Relação NF X CTE X Fatura,OPERADOR,Faturamento,Movimentação,1
+842,UPDATE CUSTO MDFE,TI - SISTEMAS,Faturamento,Cadastrais,1
+843,Acompanhamento Operação Fracionado Grupo Mirassol,OPERADOR,Faturamento,Cadastrais,1
+844,GRO VOLKS,OPERADOR,Faturamento,Movimentação,1
+845,Abastecimento,OPERADOR,Frota,Abastecimento,1
+846,Relatório Exclusão de Anexos (MOT/VEI),OPERADOR,Frota,Cadastrais,1
+847,Valor Tabela x Manifesto,OPERADOR,Faturamento,Cadastrais,1
+848,Relatório de Movimentação de Estoque,OPERADOR,Materiais,Movimentação,1
+849,PEDIDO ANEXO NOTA FISCAL,OPERADOR,Materiais,Movimentação,1
+850,Listagem DRE por Conta Contábil,CONTABILIDADE,Contabilidade,Movimentação,1
+851,RATEIO REQUISIÇÃO,TI - SISTEMAS,Materiais,Movimentação,1
+852,Operação John Deere,OPERADOR,Faturamento,Movimentação,1
+854,Concepcao de Indicador,OPERADOR,Faturamento,Movimentação,1
+855,Conferência de Romaneio por Situação,OPERADOR,Faturamento,Cadastrais,1
+856,Relação Ocorrências por Manifesto V2,OPERADOR,Faturamento,Cadastrais,1
+857,UPDATE TIPO MANIFESTO,TI - SISTEMAS,Faturamento,Cadastrais,1
+858,UPDATE LIQUIDA DOCUMENTO CR,TI - SISTEMAS,Fluxo de Caixa,Contas a Receber,1
+859,UPDATE COND. PAGAMENTO,TI - SISTEMAS,Materiais,Movimentação,1
+860,UPDATE DADOS TARIFA TABELA DE FRETE EMPRESA,TI - SISTEMAS,Faturamento,Cadastrais,1
+861,Acompanhamento Envio Faturas à Vencer,OPERADOR,Fluxo de Caixa,Contas a Receber,1
+863,Emissão NFS-e  PM Guarulhos Por Período,OPERADOR,Faturamento,Cadastrais,1
+864,Emissão NFS-e PM Louveira,OPERADOR - FILIAL,Faturamento,Movimentação,1
+865,UPDATE ALTERA APROVADOR PEDIDO,TI - SISTEMAS,Materiais,Movimentação,1
+866,UPDATE ULTIMO CVA,TI - SISTEMAS,Faturamento,Movimentação,1
+867,UPDATE SITUACAO PV P/ CADASTRADO,TI - SISTEMAS,Faturamento,Movimentação,1
+868,UPDATE INTEGRA NF,TI - SISTEMAS,Faturamento,Cadastrais,1
+869,Emissão NFS-e PM Barueri,OPERADOR,Faturamento,Cadastrais,1
+870,Relatório All in One 3A (Por Manifesto),OPERADOR,Faturamento,Movimentação,1
+871,Emissão DACTE,OPERADOR,Faturamento,Movimentação,1
+872,UPDATE ALTERA CARTÃO,TI - SISTEMAS,Frota,Movimentação,1
+873,Audioria NF,OPERADOR,Faturamento,Movimentação,1
+874,LISTA NOTAS FISCAIS DE SERVIÇO,OPERADOR,Faturamento,Cadastrais,1
+875,LISTA CLASSIFICAÇÃO / CONTAS A PAGAR - ABASTECIMENTO,OPERADOR,Fiscal,Movimentação,1
+876,UPDATE SITUAÇÃO PEDIDO (MUDA PARA PENDENTE),TI - SISTEMAS,Materiais,Movimentação,1
+877,UPDATE SITUAÇÃO PEDIDO (MUDA PARA APROVADO/LIBERADO),TI - SISTEMAS,Materiais,Movimentação,1
+878,Lista Contas a Pagar Origem Contrato de Frete,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+879,Resumo Faturamento,OPERADOR,Faturamento,Movimentação,1
+880,UPDATE LINHA OST (PROVISÓRIO),OPERADOR,Faturamento,Cadastrais,1
+881,Lista Fluxo Operacional,OPERADOR,Faturamento,Cadastrais,1
+882,ENTRADA DE MATERIAIS (TRIBUTOS),OPERADOR,Materiais,Movimentação,1
+883,Conciliação (Documentos X Contábil X Livro de Saída),OPERADOR,Fiscal,Movimentação,1
+884,Arquivos CONEMB enviados via FTP,OPERADOR,Faturamento,Movimentação,1
+885,Lista Eventos Auditoria Vinculados no CTRB,OPERADOR,Faturamento,Cadastrais,1
+886,Relação de Romaneio Descarga X Carregamento por Documento,OPERADOR,Faturamento,Cadastrais,1
+887,Emissão ROC - Indicado 01 Composição,OPERADOR - FILIAL,Faturamento,Movimentação,1
+888,UPDATE COND. DE ATENDIMENTO,TI - SISTEMAS,Faturamento,Movimentação,1
+889,UPDATE: ATUALIZA MINUTA E REENVIA CONEMB_R,TI - SISTEMAS,Faturamento,Movimentação,1
+890,Relatório Medição Processo de Manutenção,OPERADOR,Manutencao,Movimentação,1
+891,Requisição Manutenção,OPERADOR,Manutencao,Movimentação,1
+892,Conferencia Gia,OPERADOR,Fiscal,Movimentação,1
+894,ATUALIZA_STATUS_CARTAO_MOTORISTA,OPERADOR,Frota,Cadastrais,1
+895,Controle de Adiantamento Fornecedores,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+896,Novo Layout JohnDeere (Em Homologação),OPERADOR,Faturamento,Movimentação,1
+898,ATUALIZA SEGURO OST,TI - SISTEMAS,Faturamento,Movimentação,1
+899,ATUALIZA SEGURO CTE,TI - SISTEMAS,Faturamento,Movimentação,1
+900,Relação de ADF Analitica,OPERADOR,Fluxo de Caixa,Contas a Pagar,1
+901,UPDATE OBS NF,OPERADOR,Faturamento,Movimentação,1
+902,ROC APOIO,OPERADOR,Faturamento,Cadastrais,1
+903,Relação de Pedidos de Compra (Nível de Classificação),OPERADOR,Materiais,Movimentação,1
+904,Faturamento por Agregado,OPERADOR,Faturamento,Movimentação,1
+905,Relatório Conferencia Romaneio de Descarga,OPERADOR,Faturamento,Cadastrais,1
+906,Viagens Sem Comprovantes e Auditoria,OPERADOR,Faturamento,Cadastrais,1
+907,Viagens Sem Comprovantes e Auditoria Geral,OPERADOR,Faturamento,Cadastrais,1
+908,Faturamento Automático,TI - SISTEMAS,Faturamento,Cadastrais,1
+909,Viagens em Aberto por Comprovante - Nível de Documento,OPERADOR,Faturamento,Cadastrais,1
+910,Autoriza_MDFE_Coleta_APP,OPERADOR,Faturamento,Movimentação,1
+911,Dados Documentos Faturamento,OPERADOR,Faturamento,Cadastrais,1
+912,Faturamento por Agregados,OPERADOR,Faturamento,Cadastrais,1
+913,Dados Operação Fracionado,OPERADOR,Faturamento,Cadastrais,1
+914,DACTE HOMOLOGAÇÃO,OPERADOR,Faturamento,Cadastrais,1
+915,UPDATE BLOQUEIO CARTÃO,TI - SISTEMAS,Faturamento,Cadastrais,1
+916,REMOVE VINCULO DESLOCAMENTO VAZIO,TI - SISTEMAS,Faturamento,Cadastrais,1
+917,Mapeamento Pedágio JOHN DEERE Repom,OPERADOR,Faturamento,Cadastrais,1
+918,CONFERENCIA DE RETENÇÕES  IRRF e INSS,OPERADOR,Fiscal,Livros Fiscais,1
+919,Dados Documentos Operacionais,OPERADOR,Faturamento,Cadastrais,1
+920,Movimentacao_Cartao,OPERADOR,Frota,Cadastrais,1
+921,Depreciação Acumulada,OPERADOR,Patrimonio,Movimentação,1
+922,UPDATE CARTÃO CTRB,TI - SISTEMAS,Faturamento,Cadastrais,1
+923,Dados Despesa por Agregado,OPERADOR,Faturamento,Cadastrais,1
+924,Relatório Receita x Despesa por Referência,OPERADOR,Faturamento,Cadastrais,1
+925,Integrador de Documentos CargoLink,TI - SISTEMAS,Faturamento,Cadastrais,1
+927,Teste_Fatura_Dacte,OPERADOR,Faturamento,Movimentação,1
+928,Etiqueta Vale Provisório,OPERADOR,Faturamento,Cadastrais,1
+930,RELATÓRIO - Processamento Consolidação Vale,OPERADOR,Faturamento,Cadastrais,1
+931,UPDATE - Processamento Consolidação Vale,TI - SISTEMAS,Faturamento,Cadastrais,1
+933,Emissão NFS-e  PM Betim,OPERADOR - FILIAL,Faturamento,Movimentação,1
+934,Relatório Conferencias de Diferenciais Vale,OPERADOR,Faturamento,Cadastrais,1
+935,Relatório Consolidação Lotes Vale,OPERADOR,Faturamento,Cadastrais,1
+936,Etiqueta Veículos,OPERADOR,Faturamento,Cadastrais,1
+937,Razão Analitico Rodobak,OPERADOR,Contabilidade,Cadastrais,1
+938,Comissão de Vendedores - HOMOLOGAÇÃO,TI - SISTEMAS,Comercial,Cadastrais,1
+939,Contratos Saldo Devedor Auditado,OPERADOR,Faturamento,Cadastrais,1
+940,Relatório Painel Operacional Vale,OPERADOR,Faturamento,Cadastrais,1
+941,Etiqueta CrossDocking CODE BARRAS,OPERADOR,Faturamento,Cadastrais,1
+942,Exporta Chaves Hora Certa,OPERADOR,Faturamento,Movimentação,1
+943,Documentos Conta 997,OPERADOR,Contabilidade,Movimentação,1
+944,Arquivos OCORREN enviados via FTP,OPERADOR,Faturamento,Movimentação,1
+945,Relatório Analise Processamento Contábil,OPERADOR,Contabilidade,Movimentação,1
+946,Emissão NFS-e  PM Rio de Janeiro V2,OPERADOR,Faturamento,Cadastrais,1
+947,Relatório Comissão de Vendedores,OPERADOR,Faturamento,Cadastrais,1
+948,Relatório Itens ASN Vale,OPERADOR,Faturamento,Cadastrais,1
+949,Relatório vincula OST no Manifesto,TI - SISTEMAS,Faturamento,Cadastrais,1
+950,Relatório Linhas e Rotas,OPERADOR,Faturamento,Cadastrais,1
+951,Exporta Chaves Hora Certa - ROMANEIO,OPERADOR,Faturamento,Cadastrais,1
+952,Update Altera Contrato Rodobank para EXPRESSO,TI - SISTEMAS,Faturamento,Cadastrais,1
+953,Update Altera Contrato Rodobank para LOGÍSTICA,TI - SISTEMAS,Faturamento,Cadastrais,1
+954,Update Altera Contrato Rodobank para M3,TI - SISTEMAS,Faturamento,Cadastrais,1
+955,Relatório Análise Contratos Rodobank,OPERADOR,Faturamento,Cadastrais,1
+956,Relação de Viagens Mirassol,OPERADOR,Faturamento,Cadastrais,1
+957,UPDATE PESO CONTRATO,TI - SISTEMAS,Faturamento,Cadastrais,1
+958,INTEGRACAO SEGURO RCV,OPERADOR,Faturamento,Movimentação,1
+959,Divergência Impostos Entrada x Fluxo de Caixa,OPERADOR,Fiscal,Movimentação,1
+960,VÍNCULO EMISSOR X GESTOR,TI - SISTEMAS,Faturamento,Cadastrais,1
+961,Acompanhamento SLA Vale,OPERADOR,Faturamento,Cadastrais,1
+962,Relatório Analise Faturamento,OPERADOR,Faturamento,Cadastrais,1
+963,Relatório Auditoria de Inicio,OPERADOR,Programacao,Cadastrais,1
+964,Gera Cte Romaneio,TI - SISTEMAS,Faturamento,Cadastrais,1
+965,ROC,TI - SISTEMAS,Faturamento,Movimentação,1
+966,Relatório Vinculo Emissores x Gestores,OPERADOR,Faturamento,Cadastrais,1
+967,Relatório Pedágio Despesa Cartão,OPERADOR,Faturamento,Cadastrais,1
