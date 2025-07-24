@@ -1,13 +1,13 @@
 {
   "functions": {
-    "API/**/*.py": {
+    "api/**/*.py": {
       "memory": 1024, 
       "maxDuration": 10 
     }
   },
   "routes": [
     {
-      "src": "/API/(.*)",
+      "src": "/api/(.*)",
       "dest": "/api/$1"
     }
   ]
