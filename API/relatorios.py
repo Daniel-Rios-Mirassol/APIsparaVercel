@@ -34,35 +34,47 @@ class handler(BaseHTTPRequestHandler):
             return False
 
     def do_GET(self):
-        if not self._verify_api_key():
-            return
+            if not self._verify_api_key():
+                return
 
-        # ... seu código GET aqui ...
-        self.send_response(200)
-        self.send_header('Content-type', 'application/json')
-        self.end_headers()
-        current_dir = os.path.dirname(__file__)
-        file_path = os.path.join(current_dir, 'Relatorios.txt')
-        print(f"Diretório atual da função: {current_dir}")
-        print(f"Caminho completo do arquivo: {file_path}")
-        print(f"Arquivo existe em {file_path}? {os.path.exists(file_path)}")
-        texto_para_retornar = ''
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                texto_para_retornar = f.read()
-        except:
-            response_data = {'message': 'deu não'}
+            # --- NOVAS LINHAS PARA DEBUG ---
+            current_dir = os.path.dirname(__file__)
+            file_path = os.path.join(current_dir, 'Relatorios.txt')
+            print(f"Diretório atual da função: {current_dir}")
+            print(f"Caminho completo do arquivo: {file_path}")
+            print(f"Arquivo existe em {file_path}? {os.path.exists(file_path)}")
+            # --- FIM DAS NOVAS LINHAS ---
+
+            texto_para_retornar = ""
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    texto_para_retornar = f.read()
+            except FileNotFoundError:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                error_data = {"error": "Arquivo 'Relatorios.txt' NÃO ENCONTRADO."}
+                self.wfile.write(json.dumps(error_data).encode('utf-8'))
+                return
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-type', 'application/json')
+                self.end_headers()
+                error_data = {"error": f"Erro ao ler o arquivo: {str(e)}"}
+                self.wfile.write(json.dumps(error_data).encode('utf-8'))
+                return
+
+            self.send_response(200)
+            self.send_header('Content-type', 'application/json')
+            self.end_headers()
+            response_data = {'message': texto_para_retornar}
             self.wfile.write(json.dumps(response_data).encode('utf-8'))
             return
-        response_data = {'message': texto_para_retornar}
-        self.wfile.write(json.dumps(response_data).encode('utf-8'))
-        return
 
     def do_POST(self):
         if not self._verify_api_key():
             return
 
-        # ... seu código POST aqui ...
         self.send_response(200)
         self.send_header('Content-type', 'application/json')
         self.end_headers()
