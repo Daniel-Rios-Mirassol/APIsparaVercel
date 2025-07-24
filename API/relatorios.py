@@ -43,10 +43,12 @@ class handler(BaseHTTPRequestHandler):
         self.end_headers()
         current_dir = os.path.dirname(__file__)
         file_path = os.path.join(current_dir, 'Relatorios.txt')
+        print(f"Diretório atual da função: {current_dir}")
+        print(f"Caminho completo do arquivo: {file_path}")
+        print(f"Arquivo existe em {file_path}? {os.path.exists(file_path)}")
         with open(file_path, 'r', encoding='utf-8') as f:
             texto_para_retornar = f.read()
-        response_data = {'message': f'''{texto_para_retornar}
-'''}
+        response_data = {'message': texto_para_retornar}
         self.wfile.write(json.dumps(response_data).encode('utf-8'))
         return
 
